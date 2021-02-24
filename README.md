@@ -1,7 +1,7 @@
 This program does the following:  
 1.) Collects daily stock market price data for a company (the stock ticker and company name should be provided by the user).  
 2.) Compares the percentage price change of the stock in the last day to an "ALLOWABLE_PERCENT" variable.  
-3.) Extracts breaking news articles and sends URLs for the breaking news to the user in an SMS message if the percentage price fluctuation exceeds ALLOWABLE_PERCENT.  
+3.) Extracts breaking news and sends URLs for the breaking news articles to the user in an SMS message if the percentage price fluctuation exceeds ALLOWABLE_PERCENT.  
   
 The following free APIs are used:  
 Alphavantage (for stock price data) - https://www.alphavantage.co/  
