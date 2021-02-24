@@ -9,5 +9,5 @@ NewsAPI (for breaking news articles about the stock) - https://newsapi.org/
 Twilio (for sending SMS messages) - https://www.twilio.com/  
   
 The following environment variables need to be provided for the script to work:  
-ALPHAVANTAGE_API_KEY, NEWS_API_KEY, TWILIO_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER - These can be retrieved by signing up for the free APIs at the URLs provided above.  
+ALPHAVANTAGE_API_KEY, NEWS_API_KEY, TWILIO_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER - These can be retrieved by signing up for the free APIs at the URLs provided above.   
 RECIPIENT_PHONE_NUMBER - This is the phone number that SMS messages about the stock should be sent to (e.g. the mobile number of the script user).
