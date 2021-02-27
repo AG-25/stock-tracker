@@ -8,7 +8,7 @@ This is a program which tracks the daily closing price of a stock and sends an a
 1. If the percentage change exceeds ALLOWABLE_PERCENT, then an SMS warning is sent to the user which includes breaking news articles about the company. The news is extracted from the NewsAPI.
 
 ## Using the Application
-Download main.py and install the modules listed in requirements.txt using pip (twilio and requests).
+Download main.py and install the modules listed in requirements.txt using pip (twilio and requests).  
 <br>
 The following environment variables should then be populated before running the program:
 * ALPHAVANTAGE_API_KEY, NEWS_API_KEY, TWILIO_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER - Values for these variables can be retrieved by signing up for the free APIs at the URLs provided below.
